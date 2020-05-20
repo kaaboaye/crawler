@@ -8,6 +8,7 @@ edition = "2018"
 
 [dependencies]
 script = { git = "https://github.com/servo/servo.git" }
+style = { git = "https://github.com/servo/servo.git", features = ["servo", "servo-layout-2013"] }
 
 [patch.crates-io]
 # Those are here to dedupe winapi since mio is still using winapi 0.2.
